@@ -1,0 +1,33 @@
+{
+  "name": "@amindunited/reactive-state",
+  "version": "0.0.0",
+  "description": "A very simple state container built with RxJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html mocha './src/**/*.test.js' --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amindunited/reactive-state.git"
+  },
+  "keywords": [
+    "State",
+    "store",
+    "RxJS",
+    "reactive",
+    "redux",
+    "state-managment",
+    "observable"
+  ],
+  "author": "amindunited",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amindunited/reactive-state/issues"
+  },
+  "homepage": "https://github.com/amindunited/reactive-state#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}
